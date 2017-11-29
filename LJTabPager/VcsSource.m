@@ -11,12 +11,13 @@
 
 @implementation VcsSource
 - (NSInteger)numberOfViewControllers {
-    return 8;
+    return self.titles.count;
 }
 
 - (NSArray *)titles {
     //@[@"个性推荐", @"歌单", @"主播电台", @"排行榜", @"用户", @"歌手", @"专辑", @"单曲"];
-    NSArray *array = @[@"个性推荐", @"歌单", @"主播电台", @"排行榜", @"用户", @"歌手", @"专辑", @"单曲"];
+//    NSArray *array = @[@"个性推荐", @"歌单", @"主播电台", @"排行榜", @"用户", @"歌手", @"专辑", @"单曲"];
+    NSArray *array = @[@"个性推荐", @"歌单"];
     return array;
 }
 
